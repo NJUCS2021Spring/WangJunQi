@@ -1,3 +1,9 @@
 ﻿  Book.cpp
+  menu.cpp
+  正在生成代码...
+menu.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall admin::search(void)" (?search@admin@@QAEXXZ)，函数 "public: void __thiscall MyWordBook::search_group(void)" (?search_group@MyWordBook@@QAEXXZ) 中引用了该符号
+menu.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall admin::add(void)" (?add@admin@@QAEXXZ)，函数 "public: void __thiscall MyWordBook::add_group(void)" (?add_group@MyWordBook@@QAEXXZ) 中引用了该符号
+menu.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall admin::edit(void)" (?edit@admin@@QAEXXZ)，函数 "public: void __thiscall MyWordBook::check_group(void)" (?check_group@MyWordBook@@QAEXXZ) 中引用了该符号
+menu.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall admin::display(void)" (?display@admin@@QAEXXZ)，函数 "public: void __thiscall MyWordBook::check_group(void)" (?check_group@MyWordBook@@QAEXXZ) 中引用了该符号
 MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
-D:\mycode\MyWordBook\Debug\MyWordBook.exe : fatal error LNK1120: 1 个无法解析的外部命令
+D:\mycode\MyWordBook\Debug\MyWordBook.exe : fatal error LNK1120: 5 个无法解析的外部命令

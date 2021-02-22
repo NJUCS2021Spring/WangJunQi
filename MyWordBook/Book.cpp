@@ -15,10 +15,9 @@ class admin {
 		vector<word> conf;
 	public:
 		admin();
-		void search_group();
+		void search();
 		void add();
 		void edit();
 		void display();
-		void quit();
 
 };
